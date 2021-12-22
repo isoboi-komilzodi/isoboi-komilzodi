@@ -1,0 +1,582 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" type="image/png" href="../assets/favicon.png"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/style.css">
+    <link rel="stylesheet" href="../styles/landing.css">
+    <link rel="stylesheet" href="../styles/mobile.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <script src="../script.js"></script>
+    <title>Gamestation</title>
+</head>
+<body>
+
+<header class="header">
+    <div class="logo">
+    </div>
+    <div class="navigation">
+        <a href="../assets/docs/GameStation-SC-Audit.pdf" target="_blank">Audits</a>
+        <a href="../index.html" target="_self">About</a>
+        <a class="selected">How It Works</a>
+        <a href="./token.html" target="_self"><span>Token</span></a>
+        <a href="https://medium.com/gamestationio" target="_blank">Blog</a>
+        <a href="../assets/docs/GameStation-PitchDeckV1.0C-compressed.pdf" target="_blank"><span>Whitepaper</span></a>
+        <a href="https://app.gamestation.io/user/faq" target="_blank"><span>FAQ</span></a>
+    </div>
+    <div class="social-and-app">
+<!--        <div class="socials">-->
+<!--            <a target="_blank" href="https://t.me/gamestationio_official"><span class="social tg"></span></a>-->
+<!--            <a target="_blank" href="https://t.me/GameStationIO_Ann"><span class="social tg-2"></span></a>-->
+<!--            <a target="_blank" href="https://twitter.com/gamestationio"><span class="social twitter"></span></a>-->
+<!--            <a href="https://medium.com/gamestationio" target="_blank"><span class="social medium"></span></a>-->
+<!--        </div>-->
+        <a href="https://quickswap.exchange/#/swap?outputCurrency=0x3f6b3595ecf70735d3f48d69b09c4e4506db3f47" target="_blank" class="buy-gamer-link desktop">
+            <button class="launch-app-btn buy-gamer">
+                <span>Buy GAMER</span>
+            </button>
+        </a>
+        <a href="https://app.gamestation.io/" target="_blank" class="launch-app-btn-link">
+            <button class="launch-app-btn">
+                <span> Launch App</span>
+            </button>
+        </a>
+
+        <div class="menu" onclick="toggleMenu(this)"></div>
+    </div>
+
+    <div id="mobile-side-bar" class="show-on-mobile" style="display: none">
+        <div class="mobile-side-bar">
+            <a href="../assets/docs/GameStation-SC-Audit.pdf" target="_blank">
+                <div class="mobile-side-bar__item">
+                    <div class="mobile-side-bar__audit"></div>
+                    <span>Audits</span>
+                </div>
+            </a>
+            <a href="../index.html">
+                <div class="mobile-side-bar__item">
+                    <div class="mobile-side-bar__about"></div>
+                    <span>About</span>
+                </div>
+            </a>
+
+            <a class="selected">
+                <div class="mobile-side-bar__item">
+                    <div class="mobile-side-bar__benefits"></div>
+                    <div>How It Works</div>
+                </div>
+            </a>
+
+            <a href="token.html">
+                <div class="mobile-side-bar__item">
+                    <div class="mobile-side-bar__participants"></div>
+                    <div>Token</div>
+                </div>
+            </a>
+
+            <a href="../assets/docs/GameStation-PitchDeckV1.0C-compressed.pdf" target="_blank">
+                <div class="mobile-side-bar__item">
+                    <div class="mobile-side-bar__participants"></div>
+                    <div>Whitepaper</div>
+                </div>
+            </a>
+
+            <a href="https://medium.com/gamestationio" target="_blank">
+                <div class="mobile-side-bar__item">
+                    <div class="mobile-side-bar__utility"></div>
+                    <div>Blog</div>
+                </div>
+            </a>
+            <a href="https://app.gamestation.io/user/faq" target="_blank">
+                <div class="mobile-side-bar__item">
+                    <div class="mobile-side-bar__utility"></div>
+                    <div>FAQ</div>
+                </div>
+            </a>
+        </div>
+<!--        <div class="socials-mobile">-->
+<!--            <a target="_blank" href="https://t.me/gamestationio_official"><span class="social tg"></span></a>-->
+<!--            <a target="_blank" href="https://t.me/GameStationIO_Ann"><span class="social tg-2"></span></a>-->
+<!--            <a target="_blank" href="https://twitter.com/gamestationio"><span class="social twitter"></span></a>-->
+<!--            <a target="_blank" href="https://medium.com/gamestationio"><span class="social medium"></span></a>-->
+<!--        </div>-->
+        <a href="https://quickswap.exchange/#/swap?outputCurrency=0x3f6b3595ecf70735d3f48d69b09c4e4506db3f47" target="_blank" class="buy-gamer-link">
+            <button class="launch-app-btn buy-gamer">
+                <span>Buy GAMER</span>
+            </button>
+        </a>
+    </div>
+</header>
+
+
+<div class="zoom-content">
+    <section class="conventional-model-section scroll-target">
+        <div class="section-w-box conventional-model-section-bg">
+            <h1>Conventional model</h1>
+            <p class="desktop">At present, it takes a long time to develop a game. It costs millions of <br/>
+                USD and it is very difficult to attract gamers. Developers end up with very <br/>
+                little and gamers are at the mercy of the enterprises that own the games.
+            </p>
+            <p class="mobile ">At present, it takes a long time to develop a game. It costs<br/>
+                millions of USD and it is very difficult to attract gamers.<br/>
+                Developers end up with very little and gamers are at the <br/>
+                mercy of the enterprises that own the games.
+            </p>
+
+
+            <div class="mobile-view-flex">
+                <div class="d-flex mobile-view-arrow-step-1">
+                    <div class="box-arrow-first"></div>
+                    <div class="box-arrow-center">
+                        <div class="counter">
+                            <div class="text">01</div>
+                        </div>
+
+                        <div class="text">
+                            GATHER<br/>A TEAM
+                        </div>
+                    </div>
+                    <div class="box-arrow-center">
+                        <div class="counter">
+                            <div class="text">02</div>
+                        </div>
+                        <div class="text">
+                            RAISE<br/>
+                            FUNDS
+                        </div>
+                    </div>
+                    <div class="box-arrow-center">
+                        <div class="counter">
+                            <div class="text">03</div>
+                        </div>
+                        <div class="text">
+                            DEVELOPMENT<br/>
+                            PHASE
+                        </div>
+                    </div>
+                    <div class="box-arrow-center">
+                        <div class="counter">
+                            <div class="text">04</div>
+                        </div>
+                        <div class="text">
+                            FIND<br/>
+                            PUBLISHER
+                        </div>
+                    </div>
+                    <div class="box-arrow-center">
+                        <div class="counter">
+                            <div class="text">05</div>
+                        </div>
+                        <div class="text">
+                            PUBLISH
+                        </div>
+                    </div>
+                    <div class="box-arrow-last"></div>
+                </div>
+                <div class="blue-border-box-big">
+                    <div class="blue-border-box-clip top-clip"></div>
+                    <div class="blue-border-box-clip bottom-clip"></div>
+                    <div class="blue-border-box-clip left-clip"></div>
+                    <div class="blue-border-box-clip right-clip"></div>
+
+                    <div class="d-flex left-content">
+                        <div class="item">
+                            <div class="image-box">
+                                <div class="text">
+                                    DEVELOPER <br/>
+                                    JON
+                                </div>
+                                <img src="../assets/img/how-it-work/develop-join.png" alt="develop">
+                            </div>
+                            <p>I have an idea!</p>
+                        </div>
+                        <div class="item">
+                            <div class="image-box">
+                                <div class="text">
+                                    INVESTOR
+                                </div>
+                                <img src="../assets/img/how-it-work/investor.png" alt="investor">
+                            </div>
+                            <p>I’m Interested in<br/>funding a project </p>
+                        </div>
+                    </div>
+
+                    <div class="d-flex right-content">
+                        <div class="item">
+                            <div class="image-box">
+                                <div class="text">
+                                    PUBLISHER
+                                </div>
+                                <img src="../assets/img/how-it-work/publisher.png" alt="publisher">
+                            </div>
+
+                            <p>You need me to get to <br/>the gamers – I want more</p>
+                        </div>
+                        <div class="item">
+                            <div class="image-box">
+                                <div class="text">
+                                    GAMER <br/>
+                                    MARK
+                                </div>
+                                <img src="../assets/img/how-it-work/gamer-mark.png" alt="gamer">
+                            </div>
+                            <p>I want to play<br/>quality games</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <section class="gamestation-model-section scroll-target">
+        <div class="section-w-box gamestation-model-section-bg">
+            <h1>Gamestation model</h1>
+            <p class="desktop">Gamers can sell, share, loan, borrow and exchange their game assets.<br/>
+                They can also invite friends to play the new game and so much more.<br/>
+                Gamer growth leads to asset market cap growth. This beneﬁts everyone.
+            </p>
+            <p class="mobile gamestation-model">Gamers can sell, share, loan, borrow and exchange their<br/>
+                game assets. They can also invite friends to play the new <br/>
+                game and so much more. Gamer growth leads to asset <br/>
+                market cap growth. This beneﬁts everyone.
+            </p>
+
+            <div class="mobile-view-flex">
+                <div class="d-flex mobile-view-arrow-step-2">
+                    <div class="box-arrow-first"></div>
+                    <div class="box-arrow-center">
+                        <div class="counter">
+                            <div class="text">01</div>
+                        </div>
+
+                        <div class="text">
+                            PRESENT
+                            <br/> AN IDEA
+                        </div>
+                    </div>
+                    <div class="box-arrow-center">
+                        <div class="counter">
+                            <div class="text">02</div>
+                        </div>
+                        <div class="text">
+                            GATHER<br/>
+                            A TEAM
+                        </div>
+                    </div>
+                    <div class="box-arrow-center">
+                        <div class="counter">
+                            <div class="text">03</div>
+                        </div>
+                        <div class="text">
+                            MAKE<br/>
+                            A DEMO
+                        </div>
+                    </div>
+                    <div class="box-arrow-center">
+                        <div class="counter">
+                            <div class="text">04</div>
+                        </div>
+                        <div class="text">
+                            ISSUE<br/>
+                            ASSETS
+
+                        </div>
+                    </div>
+                    <div class="box-arrow-center">
+                        <div class="counter">
+                            <div class="text">05</div>
+                        </div>
+                        <div class="text">
+                            ITERATIVE<br/>
+                            VERSION
+                        </div>
+                    </div>
+                    <div class="box-arrow-center">
+                        <div class="counter">
+                            <div class="text">06</div>
+                        </div>
+                        <div class="text">
+                            MANAGE<br/>
+                            COMMUNITY
+                        </div>
+                    </div>
+                    <div class="box-arrow-last"></div>
+                </div>
+                <div class="d-flex-space-between mobile-column-direction">
+                    <div class="blue-border-box">
+                        <div class="blue-border-box-clip top-clip"></div>
+                        <div class="blue-border-box-clip bottom-clip"></div>
+                        <img src="../assets/img/how-it-work/gamelab.svg" alt="gamelab" class="title-logo">
+                        <div class="d-flex-space-around">
+                            <div class="text-box">
+                                <div class="text">
+                                    OPEN SOURCE<br/>
+                                    PROJECTS
+                                </div>
+                            </div>
+                            <div class="text-box">
+                                <div class="text">
+                                    DEVELOPMENT<br/>
+                                    RESOURCES
+                                </div>
+                            </div>
+                        </div>
+                        <div class="d-flex-space-around">
+                            <div class="item">
+                                <div class="image-box">
+                                    <div class="text">
+                                        DEVELOPER <br/>
+                                        JON
+                                    </div>
+                                    <img src="../assets/img/how-it-work/develop-join.png" alt="develop">
+                                </div>
+                                <p>I have an idea!</p>
+                            </div>
+                            <div class="item">
+                                <div class="image-box">
+                                    <div class="text">
+                                        DEVELOPER <br/>
+                                        ZARA
+                                    </div>
+                                    <img src="../assets/img/how-it-work/developer-zara.png" alt="develop">
+                                </div>
+                                <p>I like this idea. I want<br/>
+                                    to get involved. </p>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="blue-border-box">
+                        <div class="blue-border-box-clip top-clip"></div>
+                        <div class="blue-border-box-clip bottom-clip"></div>
+                        <img src="../assets/img/how-it-work/marketplace.svg" alt="marketplace" class="title-logo">
+                        <div class="d-flex-space-around">
+                            <div class="text-box">
+                                <div class="text">
+                                    CROWDSALE<br/>
+                                    PRESALE
+                                </div>
+                            </div>
+                            <div class="text-box">
+                                <div class="text">
+                                    BORROW, LEND,<br/>
+                                    EXCHANGE, SELL
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="d-flex-space-around">
+                            <div class="item">
+                                <div class="image-box">
+                                    <div class="text">
+                                        GAMER<br/>
+                                        JULIA
+                                    </div>
+                                    <img src="../assets/img/how-it-work/gamer-julia.png" alt="develop">
+                                </div>
+                                <p>I like this game.<br/>
+                                    I want to own assets. </p>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="blue-border-box">
+                        <div class="blue-border-box-clip top-clip"></div>
+                        <div class="blue-border-box-clip bottom-clip"></div>
+                        <img src="../assets/img/how-it-work/community.svg" alt="community" class="title-logo">
+                        <div class="d-flex-space-around">
+                            <div class="text-box">
+                                <div class="text">
+                                    PLAY, INTERACT,<br/>
+                                    SHARE
+
+                                </div>
+                            </div>
+                            <div class="text-box">
+                                <div class="text">
+                                    INVITE <br/>
+                                    NEW GAMERS
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="d-flex-space-around">
+                            <div class="item">
+                                <div class="image-box">
+                                    <div class="text">
+                                        GAMER<br/>
+                                        MIKE
+                                    </div>
+                                    <img src="../assets/img/how-it-work/gamer-mike.png" alt="develop">
+                                </div>
+                                <p>You need me to get to<br/>
+                                    the gamers – I want more </p>
+                            </div>
+                            <div class="item">
+                                <div class="image-box">
+                                    <div class="text">
+                                        GAMER<br/>
+                                        MARK
+                                    </div>
+                                    <img src="../assets/img/how-it-work/develop-join.png" alt="develop">
+                                </div>
+                                <p>I want to play<br/>
+                                    quality games</p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </section>
+    <section class="gamestation-revenue-model-section scroll-target">
+        <div class="section-w-box gamestation-revenue-model-section-bg">
+            <h1>GAMESTATION <br/>REVENUE MODEL </h1>
+            <p>HOW IT WORKS</p>
+            <div class="text-title">
+                <h2 class="text-1-position">Launchpad Fees</h2>
+                <h2 class="text-2-position">Tournament Fees</h2>
+                <h2 class="text-3-position">NFT Marketplace</h2>
+                <h2 class="text-4-position">GameStation <br/> Vault</h2>
+                <h2 class="text-5-position">Staking <br/>Contracts</h2>
+                <h2 class="text-6-position">Airdrop <br/>Pool</h2>
+            </div>
+
+        </div>
+    </section>
+    <section class="gamestation-revenue-streams-section scroll-target">
+        <div class="section-w-box">
+            <h1>GAMESTATION<br/>REVENUE STREAMS</h1>
+
+            <div class="d-flex-space-between mobile-column-direction">
+                <div class="blue-border-box">
+                    <div class="blue-border-box-clip top-clip"></div>
+                    <div class="blue-border-box-clip bottom-clip"></div>
+                    <div class="blue-border-box-clip left-clip"></div>
+                    <div class="blue-border-box-clip right-clip"></div>
+                    <img src="../assets/icons/launchpad-fees-icon.svg" alt="gamelab"  class="title-logo">
+                    <p>Projects pay 5% of tokens supply<br/>and $10,000 Listing fee. </p>
+                    <p>Payable as:<br/>USDC/ETH<br/>GAMER (25% discount)<br/>Native tokens (1.5x lowest price)</p>
+                </div>
+                <div class="blue-border-box">
+                    <div class="blue-border-box-clip top-clip"></div>
+                    <div class="blue-border-box-clip bottom-clip"></div>
+                    <div class="blue-border-box-clip left-clip"></div>
+                    <div class="blue-border-box-clip right-clip"></div>
+                    <img src="../assets/icons/tournament-fees-icon.svg" alt="tournament"  class="title-logo">
+                    <p>Players deposit GAMER tokens<br/>or other supported tokens.</p>
+                    <p>Tokens are locked during<br/>tournaments and contests. </p>
+                    <p>Winner receives unlocked<br/>tokens minus 2.5% platform fee. </p>
+                </div>
+                <div class="blue-border-box">
+                    <div class="blue-border-box-clip top-clip"></div>
+                    <div class="blue-border-box-clip bottom-clip"></div>
+                    <div class="blue-border-box-clip left-clip"></div>
+                    <div class="blue-border-box-clip right-clip"></div>
+                    <img src="../assets/icons/nft-marketplace-icon.svg" alt="nft"  class="title-logo">
+                    <p>Players obtain in-game<br/>assets as NFTs in exchange<br/>for borrowed tokens.</p>
+                    <p>Tokens can be used for<br/>in-game enhancements.</p>
+                    <p>Lenders earn interest in<br/>the marketplace. </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="wrapper">
+        <form class="wrapper__form" method="post" accept-charset="UTF-8"
+              action="https://www.aweber.com/scripts/addlead.pl">
+            <div style="display: none;">
+                <input type="hidden" name="meta_web_form_id" value="1983711443"/>
+                <input type="hidden" name="meta_split_id" value=""/>
+                <input type="hidden" name="listname" value="awlist6111335"/>
+                <input type="hidden" name="meta_adtracking" value="My_Web_Form_3"/>
+                <input type="hidden" name="meta_message" value="1"/>
+                <input type="hidden" name="meta_required" value="email"/>
+                <input type="hidden" name="meta_redirect_onlist" value="https://www.gamestation.io/"/>
+
+                <input type="hidden" name="meta_tooltip" value=""/>
+            </div>
+            <div id="af-form-1983711443" class="wrapper__content">
+                <div class="wrapper__text">
+                    Want to stay up to date?
+                    <br/>
+                    Sign up for our newsletter
+                </div>
+
+                <div id="af-body-1983711443" class="wrapper__input input">
+
+                    <label class="text">
+                        <input class="input__email" id="awf_field-112511911" name="email" required placeholder="Enter email address" type="email" alt=""
+                               tabindex="500"
+                               onfocus=" if (this.value == '') { this.value = ''; }"
+                               onblur="if (this.value == '') { this.value ='';} "/>
+                    </label>
+                    <div class="wrapper__button">
+                        <input name="submit" class="submit" type="submit" value="Confirm" tabindex="501"/>
+                        <div class="af-clear"></div>
+                    </div>
+                </div>
+            </div>
+        </form>
+
+    </section>
+    <footer class="footer">
+        <div class="section-w-box footer-content">
+
+            <div class="join-our-community">
+                <h1>JOIN OUR<br/>COMMUNITY </h1>
+                <div class="x-kickstarter-icons">
+                    <span class="x-kickstarter"></span>
+                    <span class="x-kickstarter"></span>
+                </div>
+            </div>
+
+
+            <div class="d-flex-flex-start mobile-column-direction">
+                <p class="text1">follow our updates<br/>on these channels.</p>
+                <div class="d-flex">
+                    <a target="_blank" href="https://t.me/gamestationio_official"><span
+                            class="footer-social footer-tg"></span></a>
+                    <a target="_blank" href="https://t.me/GameStationIO_Ann"><span
+                            class="footer-social footer-tg-2"></span></a>
+                    <a target="_blank" href="https://twitter.com/gamestationio"><span
+                            class="footer-social footer-twitter"></span></a>
+                    <a target="_blank" href="https://medium.com/gamestationio"><span
+                            class="footer-social footer-medium"></span></a>
+                    <a target="_blank" href="https://discord.gg/gamestationio"><span class="footer-social footer-discord"></span></a>
+                </div>
+            </div>
+
+            <h1>APPLY<br/>FOR IDO</h1>
+
+            <div class="d-flex-flex-start mobile-column-direction">
+                <p class="text2">Is your project ready to get<br/>launched on Gamestation? </p>
+                <button class="apply-for-ido-btn">
+                    <a href="https://forms.gle/F1BRmK7Jq5pbnCwVA" target="_blank"><span class="launch-app apply-for">Apply For IGO</span></a>
+                </button>
+            </div>
+
+
+            <div class="d-flex-space-between footer-bottom-box">
+                <img src="../assets/img/logo/footer-logo.svg" alt="logo">
+
+                <div class="d-flex">
+                    <a href="mailto:hello@gamestation.io">Contact Us</a>
+                    <a> © 2021 GameStation</a>
+                    <a>Terms of Use</a>
+                    <a>Privacy Policy</a>
+                </div>
+            </div>
+
+        </div>
+    </footer>
+</div>
+
+</body>
+
+</html>

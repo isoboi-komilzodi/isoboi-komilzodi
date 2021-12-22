@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i,700,700i,900,900i');
+
+html{
+    background: #040025;
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.d-flex{
+    display: flex;
+}
+.d-flex-space-between{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.d-flex-space-around{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+
+}
+.d-flex-flex-start{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.d-flex-column{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.mt-10 {
+    margin-top: 10px;
+}
+
+@font-face {
+    font-family: GothamBold;
+    src:  url('../assets/fonts/Gotham-Bold.otf');
+}
+
+@font-face {
+    font-family: Gotham;
+    src:  url('../assets/fonts/Gotham-Light.otf');
+}
+
+.mobile{
+    display: none;
+}
+a {
+    color: #F8008B;
+    text-decoration: none;
+}
+
+/* #### Tablets Portrait or Landscape #### */
+
+
+@media screen and (min-width: 1500px) and (max-width: 2400px){
+    .zoom-content{
+        zoom: 150%
+    }
+}
+@media screen and (min-width: 2401px) and (max-width: 3400px){
+    html{
+        zoom: 200%;
+    }
+}
+@media screen and (min-width: 3401px){
+    html{
+        zoom: 250%;
+    }
+}

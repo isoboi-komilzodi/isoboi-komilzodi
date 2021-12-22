@@ -1,0 +1,1109 @@
+@media (min-width: 140px) and (max-width: 900px) {
+
+    .content {
+        max-width: 375px;
+    }
+
+    .title {
+        font-family: GothamBold;
+        font-size: 22px;
+        line-height: 26px;
+        color: #F8008B;
+        margin-bottom: 51px;
+    }
+
+
+    .logo-text {
+        width: 335px;
+        background: url("../assets/img/logo/logo-text-mobile.svg") no-repeat;
+        height: 81px;
+        background-position: center;
+        margin-bottom: 255px;
+    }
+
+    .first {
+        height: auto;
+        background-size: cover;
+        background-position: center;
+        padding-top: 84px;
+    }
+
+    .logo-big {
+        width: 108px;
+        height: 127px;
+        background-size: 108px 127px;
+        margin-bottom: 30px;
+    }
+
+    .first .content {
+        margin-bottom: 30px;
+    }
+
+    .first-buttons span {
+        margin-left: 0;
+        width: 162px;
+        height: 52px;
+        font-size: 16px;
+    }
+
+    .first-buttons a:first-child {
+        margin-right: 14px;
+    }
+
+    .kickstarter-gaming {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 20px;
+    }
+
+    .key-features-box {
+        height: auto;
+        width: auto;
+    }
+
+    .key-features-item {
+        flex-wrap: wrap;
+        width: 275px;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .key-features .about-page-item {
+        margin-right: 0;
+    }
+
+    .key-features-holder {
+        padding-top: 30px;
+        padding-left: 0;
+        padding-bottom: 15px;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .key-features .item {
+        width: 130px;
+        height: 130px;
+        margin-right: 0;
+        margin-bottom: 15px;
+    }
+
+    .kickstarter-left {
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+
+    .pioneering-play .dots {
+        display: none;
+    }
+
+
+    .gamer-img {
+        height: 278px;
+        background-size: 335px 278px;
+        background-position: center;
+        width: 100%;
+    }
+
+    .kickstarter {
+        padding: 20px;
+    }
+    .x-kickstarter-icons {
+        margin-bottom: 20px;
+    }
+
+    .kickstarter .title {
+        margin-bottom: 20px;
+    }
+
+    .unleashing {
+        margin-bottom: 30px;
+    }
+
+    .kickstarter-gaming-text {
+        margin-bottom: 20px;
+    }
+
+    .dots {
+        justify-content: flex-end;
+    }
+
+    .developers .title {
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    .developers-header {
+        margin-bottom: 40px;
+    }
+
+    .key-features-box {
+        margin-top: 0;
+    }
+
+    .pioneering {
+        padding: 60px 0 0 20px;
+        background: url(../assets/img/bg/gamer-background-mobile.svg) no-repeat;
+        box-sizing: border-box;
+        max-width: 375px;
+        margin: 0 auto;
+        background-size: auto 100%;
+        background-color: #060033;
+    }
+
+    .pioneering-play {
+        flex-direction: column;
+        padding-top: 0;
+        margin-bottom: 0;
+        padding-bottom: 30px;
+    }
+
+    .pioneering .content {
+        padding-top: 0;
+        padding-bottom: 0;
+
+    }
+
+    .pioneering-title .title {
+        margin-bottom: 20px;
+    }
+
+    .decentralized {
+        display: inline-block;
+    }
+
+    .coins {
+        width: 210px;
+        height: 28px;
+        background: url("../assets/img/about/coins.svg") no-repeat;
+        background-size: 210px 28px;
+        margin-bottom: 30px;
+    }
+
+    .pioneering-play-list {
+        max-width: 340px;
+        margin-bottom: 0;
+    }
+    .pioneering img {
+        max-width: 335px;
+        max-height: 347px;
+    }
+
+    /*network*/
+    .network {
+        flex-direction: column;
+    }
+
+    .network-box {
+        width: 336px;
+        height: 336px;
+        padding-top: 20px;
+    }
+
+    .mantra-dao {
+        width: 210px;
+        height: 108px;
+        margin-bottom: 0;
+    }
+
+    .network-text {
+        padding: 0 20px;
+    }
+
+    .network-item .title {
+        max-width: none;
+        margin: 0 auto 40px;
+    }
+
+    .network-items {
+        flex-direction: column;
+    }
+
+    .network-items .network-box:first-child {
+        margin-right: 0;
+    }
+
+
+
+    .polygon {
+        width: 220px;
+        height: 47px;
+        margin-bottom: 30px;
+        zoom: 0.7;
+    }
+
+    .horizen-labs {
+        zoom: 0.7;
+    }
+    /*network*/
+
+
+    .years {
+        flex-direction: column;
+        margin-right: 10px;
+        margin-bottom: 0;
+    }
+
+    .years-item {
+        margin-right: 0;
+        width: 112px;
+        min-width: 0;
+        height: 144px;
+        margin-bottom: 10px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .years-item:nth-child(2) {
+        height: 126px;
+    }
+
+    .years-item-three {
+        flex-direction: column;
+        width: 112px;
+        height: 694px;
+        justify-content: space-around;
+    }
+
+    .years-item:last-child {
+        height: 240px;
+    }
+
+    .years-item:last-child {
+        margin-bottom: 0;
+    }
+
+    .roadmap-content {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .roadmap {
+        padding: 40px 0;
+    }
+
+    .roadmap .line {
+        width: 4px;
+        height: auto;
+    }
+
+    .roadmap .content {
+        padding: 0;
+        padding-left: 20px;
+        width: auto;
+    }
+
+    .roadmap-description {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .roadmap-item {
+        margin-right: 0;
+        display: flex;
+        position: relative;
+        left: -34px;
+        margin-bottom: 10px;
+    }
+
+    .years-number {
+        font-size: 18px;
+        line-height: 22px;
+    }
+
+    .circle-and-line {
+        align-items: center;
+    }
+
+    .circle-and-line span.line {
+        display: flex;
+        width: 30px;
+        height: 2px;
+    }
+
+    .circle-and-line span.circle {
+        top: 0;
+        position: relative;
+        left: 19px;
+    }
+
+    .circle-small {
+        top: 0;
+        position: relative;
+    }
+
+
+    .roadmap-description-holder {
+        width: 160px;
+        height: auto;
+        font-size: 10px;
+        line-height: 14px;
+    }
+
+    .roadmap-item:last-child {
+        margin-bottom: 0;
+    }
+
+    .mobile-column-direction{
+        width: auto;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+    }
+
+    .team .content {
+        padding-left: 18px;
+        padding-top: 30px;
+        box-sizing: border-box;
+        padding-right: 18px;
+    }
+
+    .team .title {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .team .subtitle {
+        margin-bottom: 20px
+    }
+
+    .teams {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .team-member {
+        width: 161px;
+        height: 163px;
+        margin-right: 14px;
+        margin-bottom: 14px;
+        padding-top: 10px;
+    }
+    .team-member-img {
+        margin-bottom: 8px;
+    }
+
+    .team-member:nth-child(odd) {
+        margin-right: 0;
+    }
+
+    .team-member:nth-child(even) {
+        margin-right: 0;
+    }
+
+    .team-member-name {
+        font-size: 13px;
+        line-height: 16px;
+    }
+    .team-member-position {
+        font-size: 14px;
+        line-height: 17px;
+    }
+
+    .team-member-description {
+        display: none;
+    }
+
+
+
+
+    .strategic-partners .companies-box {
+        width: 335px;
+        height: 335px;
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+
+    .strategic-partners .companies:last-child .companies-box {
+        margin-right: 0;
+    }
+    .partners {
+        height: auto;
+    }
+
+    .strategic-partners-companies {
+        width: auto;
+    }
+
+    .strategic-partners-companies:last-child {
+        width: auto;
+    }
+
+
+    .companies {
+        flex-direction: column;
+        justify-content: center;
+        margin-bottom: 0;
+    }
+
+    .companies-box-content img {
+        width: 65%;
+    }
+
+    .companies-box-content {
+        font-size: 12px;
+        line-height: 16px;
+    }
+
+    .strategic-partners {
+        background-image: none;
+    }
+
+    .strategic-partners .content {
+        padding-top: 40px;
+    }
+
+    .strategic-partners .title {
+        margin-bottom: 40px;
+    }
+    .desktop {
+        display: none !important;
+    }
+    .mobile{
+        display: flex !important;
+    }
+
+    /*Header*/
+    .section-w-box {
+        width: auto;
+    }
+    .socials, .navigation {
+        display: none;
+    }
+    .logo {
+        left: 27px;
+        width: 100px;
+        height: 25px;
+        background-size: 100px 25px;
+    }
+
+    .launch-app-btn-link {
+        margin-right: 12px;
+    }
+    .menu {
+        display: flex;
+        width: 22px;
+        height: 19px;
+        background: url("../assets/img/menu/menu.svg") no-repeat;
+    }
+
+    .menu-close{
+        background: url('../assets/img/menu/close.svg') no-repeat;
+        height: 22px;
+    }
+
+    .header {
+        justify-content: space-between;
+        height: 72px;
+        padding: 0 20px;
+    }
+
+    #mobile-side-bar {
+        position: absolute;
+        height: 286px;
+        background: #040025;
+        width: 100%;
+        z-index: 2;
+        top: 72px;
+        box-sizing: border-box;
+        left: 0;
+        color: #E7298B;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        padding-top: 14px;
+    }
+
+    .show-on-mobile{
+        display: flex;
+        height: 60px;
+        padding: 0 20px;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .mobile-side-bar {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        height: auto;
+        margin-bottom: 6px;
+    }
+    .mobile-side-bar a{
+        height: 30px;
+        display: flex;
+    }
+    .mobile-side-bar__item {
+        color: #E7298B;
+        display: flex;
+        align-items: center;
+        font-family: GothamBold;
+        font-size: 14px;
+        line-height: 17px;
+        width: 100%;
+    }
+
+    .selected .mobile-side-bar__item{
+        border-bottom: 1px solid;
+    }
+
+    .socials-mobile {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .social {
+        width: 32px;
+        height: 32px;
+        background-size: 32px 32px;
+        display: flex;
+        margin-right: 14px;
+    }
+
+    .social-and-app {
+        right: 20px;
+    }
+    /*Header*/
+
+
+    /*How It Works*/
+    .conventional-model-section-bg, .gamestation-model-section-bg {
+        background-image: none;
+        font-size: 11px;
+    }
+    .gamestation-model-section .section-w-box h1,
+    .conventional-model-section .section-w-box h1 {
+        font-size: 22px;
+        line-height: 26px;
+    }
+    .mobile-view-flex {
+        display: flex;
+        justify-content: center;
+    }
+    .mobile-view-arrow-step-1 {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 692px;
+        margin-right: 15px;
+    }
+    .mobile-view-arrow-step-2 {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 849px;
+        margin-right: 15px;
+    }
+
+    .box-arrow-center .counter .text {
+        margin-top: 1px;
+    }
+
+    .box-arrow-center .counter {
+        width: 20px;
+        height: 20px;
+        top: 40px;
+        left: -12px;
+        clip-path: polygon(0 0, 98% 20%, 100% 100%, 0 80%);
+    }
+    .blue-border-box-big .item {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 10px 0 10px 0;
+    }
+    .blue-border-box-big{
+        margin: 0;
+        min-width: 250px;
+        flex-direction: column;
+        height: 690px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .key-features-box {
+        height: auto;
+    }
+    .about-page-item {
+        margin-bottom: 15px;
+    }
+    .gamestation-model-section-bg .blue-border-box,
+    .conventional-model-section .blue-border-box-big {
+        margin-top: 0;
+    }
+    .blue-border-box-big .left-content {
+        left: 0;
+        position: initial;
+        flex-direction: column;
+    }
+    .blue-border-box-big .right-content {
+        right: 0;
+        position: initial;
+        flex-direction: column;
+    }
+    .box-arrow-first {
+        height: 125px;
+        width: 65px;
+        clip-path: polygon(50% 0%, 100% 0px, 100% 85%, 50% 100%, 0px 85%, 0 0);
+    }
+    .box-arrow-center {
+        margin-left: 0;
+        height: 250px;
+        width: 65px;
+        clip-path: polygon(50% 10%, 110% 0px, 110% 90%, 50% 100%, -10px 90%, -10px 0);
+        margin-top: -5px;
+    }
+    .box-arrow-last {
+        margin-left: 0;
+        clip-path: polygon(50% 15%, 100% 0px, 100% 100%, 50% 100%, 0px 100%, 0px 0px);
+        height: 125px;
+        width: 65px;
+        margin-top: -3px;
+    }
+    .box-arrow-center .text {
+        transform: rotate(-90deg);
+    }
+    .mobile-column-direction{
+        width: auto;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+    }
+    .blue-border-box .text-box {
+        width: 106px;
+        height: 42px;
+    }
+    .blue-border-box {
+        min-width: 249px;
+        width: 249px;
+        margin-bottom: 15px;
+    }
+    .gamestation-revenue-model-section-bg{
+        background-image: url("../assets/icons/o-icon.svg"), url("../assets/icons/o-icon.svg"), url("../assets/icons/o-icon.svg"), url("../assets/img/how-it-work/Illstration-mobile.svg"), url("../assets/icons/launchpad-fees-icon.svg"), url("../assets/icons/tournament-fees-icon.svg"), url("../assets/icons/nft-marketplace-icon.svg");
+        background-repeat: no-repeat, no-repeat, no-repeat, no-repeat, no-repeat, no-repeat, no-repeat;
+        background-position: 10px 54px, 25px 36px, 40px 54px, 0 250px, 35px 255px, 156px 255px, 259px 255px;
+        height: 100%;
+        width: 380px;
+
+    }
+    .gamestation-revenue-model-section .section-w-box h1 {
+        top: 112px;
+        left: 20px;
+        font-size: 22px;
+        line-height: 26px;
+    }
+    .gamestation-revenue-model-section .section-w-box p {
+        top: 180px;
+        left: 20px;
+    }
+    .gamestation-revenue-model-section .section-w-box .text-title h2 {
+        font-size: 8px;
+        line-height: 10px;
+    }
+    .text-title .text-1-position {
+        top: 240px;
+        left: 20px;
+    }
+    .text-title .text-2-position {
+        top: 240px;
+        left: 141px;
+    }
+    .text-title .text-3-position {
+        top: 240px;
+        left: 245px;
+    }
+    .text-title .text-4-position {
+        top: 375px;
+        left: 245px;
+    }
+    .text-title .text-5-position {
+        top: 470px;
+        left: 310px;
+    }
+    .text-title .text-6-position {
+        top: 510px;
+        left: 230px;
+    }
+    .gamestation-revenue-streams-section .blue-border-box{
+        width: 335px;
+        height: 320px;
+        margin-top: 0;
+        margin-bottom: 20px;
+    }
+    .gamestation-revenue-streams-section {
+        padding: 135px 150px 0 150px;
+    }
+    .gamestation-revenue-streams-section .section-w-box h1 {
+        font-size: 22px;
+        line-height: 26px;
+        top: -90px;
+        position: absolute;
+    }
+
+    /*How It Works*/
+
+
+    /*Footer*/
+    .footer h1 {
+        font-size: 22px;
+        line-height: 26px;
+    }
+    .footer p {
+        font-size: 16px;
+        line-height: 19px;
+    }
+    .footer-social {
+        zoom: 88%;
+    }
+    .footer {
+        padding: 0 40px 0 40px;
+        background-position: right -116px bottom 0;
+    }
+    .footer .text1, .footer .text2  {
+        margin: 0 0 30px 0;
+    }
+    .footer-content{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        width: 336px;
+    }
+
+    .footer-bottom-box {
+        margin-top: 190px;
+        margin-bottom: 24px;
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+    }
+
+
+    .footer-bottom-box img {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+
+    /*Footer*/
+
+
+    /*Token*/
+
+    .token-distribution-section {
+        height: 530px;
+    }
+
+    .token-distribution-section .section-w-box h1,
+    .token-overview-section .section-w-box h1 {
+        font-size: 22px;
+        line-height: 26px;
+        margin-bottom: 10px;
+        margin-top: 30px;
+    }
+
+    .token-overview-section .section-w-box h1 {
+        margin-left: 20px;
+    }
+
+    .white-border-box {
+        min-width: 160px;
+        width: 160px;
+        height: 48px;
+        margin-bottom: 10px;
+    }
+
+    .white-border-box-logo {
+        height: 10px;
+        min-width: 10px;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+    .white-border-box-value,
+    .white-border-box-title {
+        font-size: 8px;
+        line-height: 8px;
+
+    }
+
+    .token-overview-section-box{
+        min-width: 335px;
+    }
+
+    .white-border-box-big{
+        width: 100%;
+    }
+
+    .white-border-box-status {
+        font-size: 6px;
+        line-height: 7px;
+        width: 29px;
+        height: 12px;
+    }
+
+    .token-distribution-section-bg {
+        background-image: url(../assets/img/token/pay-chart-mobile.svg);
+        background-position: 20px 110px;
+        width: 335px;
+    }
+    .token-distribution-section .section-w-box h2 {
+        font-size: 18px;
+        line-height: 22px;
+    }
+    .token-distribution-section-total-supply {
+        position: absolute;
+        left: 64px;
+        top: 460px;
+    }
+
+    .chert-item-percent {
+        font-size: 8px;
+    }
+    .chert-item-title{
+        font-size: 10px;
+    }
+
+    .chert-item-exchange-liquidity {
+        top: 110px;
+        left: 145px;
+    }
+    .chert-item-team {
+        top: 143px;
+        left: 232px;
+    }
+    .chert-item-operations {
+        left: 270px;
+        top: 180px;
+    }
+    .chert-item-marketing {
+        left: 285px;
+        top: 220px;
+    }
+    .chert-item-reserves {
+        left: 270px;
+        top: 300px;
+    }
+    .chert-item-advisors {
+        left: 175px;
+        top: 370px;
+    }
+    .chert-item-staking-rewards {
+        left: 35px;
+        top: 360px;
+    }
+    .chert-item-seed-round {
+        left: 12px;
+        top: 320px;
+    }
+    .chert-item-private-round {
+        left: -10px;
+        top: 201px;
+    }
+    .chert-item-public-round {
+        left: 15px;
+        top: 160px;
+    }
+    .chert-item-angel-round {
+        left: 50px;
+        top: 125px;
+    }
+    /*Token*/
+
+
+    .key-features .about-page-item:last-child {
+        margin-bottom: 15px;
+    }
+
+    .white-border-box-clip {
+        width: 19px;
+        height: 2px;
+    }
+
+    .left-clip-m {
+        left: -9px;
+    }
+    .right-clip-m {
+        right: -9px;
+    }
+
+    .wrapper {
+        height: 136px;
+    }
+
+    .wrapper__content {
+        display: flex;
+        flex-direction: column;
+        max-width: 375px;
+        justify-content: center;
+        padding-left: 0;
+    }
+
+    .wrapper__text {
+        margin-right: 0;
+        text-align: center;
+        font-size: 14px;
+        margin-bottom: 12px;
+    }
+    .wrapper__input {
+        background: transparent;
+        flex-direction: column;
+        height: auto;
+    }
+    .wrapper__input label {
+        background: #fff;
+        height: 32px;
+        border-radius: 4px;
+        padding-right: 2px;
+        padding-left: 12px;
+        margin-bottom: 8px;
+        align-items: center;
+        display: flex;
+        box-sizing: border-box;
+        width: 100%;
+        max-width: 276px;
+    }
+
+    .input__email {
+        text-align: center;
+        font-size: 14px;
+    }
+    .wrapper__button {
+        width: 100%;
+        max-width: 276px;
+    }
+
+    .wrapper__button input.submit {
+        width: 100%;
+        font-size: 12px;
+    }
+
+    .footer-social {
+        margin-right: 10px;
+    }
+
+}
+
+@media (min-width: 140px) and (max-width: 380px) {
+    .token-distribution-section-bg,
+    .gamestation-revenue-model-section-bg {
+        zoom: 83%;
+    }
+}
+@media (min-width: 140px) and (max-width: 374px) {
+    .box-arrow-first, .box-arrow-center, .box-arrow-last{
+        width: 55px;
+    }
+    .token-distribution-section-bg,
+    .gamestation-revenue-model-section-bg {
+        zoom: 83%;
+    }
+    .gamestation-revenue-model-section {
+        height: 465px;
+    }
+    .mobile-view-arrow-step-1,
+    .mobile-view-arrow-step-2 {
+        margin-right: 5px;
+    }
+    .blue-border-box-big,
+    .blue-border-box {
+        min-width: 230px;
+        width: 230px;
+    }
+
+    .first-buttons span {
+
+        width: 150px;
+    }
+
+    .key-features-box {
+        height: auto;
+        width: auto;
+    }
+
+    .footer-content,
+    .gamestation-revenue-streams-section .blue-border-box{
+        width: 280px;
+    }
+
+    .token-overview-section-box {
+        min-width: 295px;
+    }
+
+    .white-border-box {
+        min-width: 140px;
+        width: 140px;
+        height: 48px;
+        margin-bottom: 10px;
+    }
+    .white-border-box-big{
+        width: 100%;
+    }
+
+
+    .logo-text {
+        width: 100%;
+        height: 50px;
+        background-size: 100% 50px;
+    }
+    .roadmap .line {
+        display: none;
+    }
+    .circle-and-line {
+        display: none;
+    }
+
+    .roadmap-item {
+        left: 0;
+    }
+
+    .network {
+        zoom: 80%;
+    }
+
+
+    .strategic-partners .companies-box {
+        width: 100%;
+        height: 335px;
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+
+    .strategic-partners .content {
+        padding: 40px 8px 0;
+        box-sizing: border-box;
+    }
+
+    .teams {
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .team-member:nth-child(odd) {
+        margin-right: 0;
+    }
+
+    .developers .title {
+        padding-left: 8px;
+    }
+
+    .gamestation-model-section .section-w-box p,
+    .conventional-model-section .section-w-box p {
+        font-size: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+
+}
+
+@media (min-width: 900px) and (max-width: 1200px) {
+.header{
+    zoom: 0.9;
+    justify-content: flex-end;
+    padding-right: 350px;
+}
+}

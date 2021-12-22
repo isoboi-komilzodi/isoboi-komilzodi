@@ -1,0 +1,475 @@
+{
+  "partners": {
+    "path": "assets/img/partners/",
+    "template": "partners",
+    "cards": [
+      {
+        "img": "pluto-alliance.svg"
+      },
+      {
+        "img": "defi-logo.svg"
+      },
+      {
+        "img": "clam-icon.svg"
+      },
+      {
+        "img": "artsy_logo.svg"
+      },
+      {
+        "img": "bring-finance.jpeg"
+      },
+      {
+        "img": "busta.svg"
+      },
+      {
+        "img": "chainlink.svg"
+      },
+      {
+        "img": "dogira.png"
+      },
+      {
+        "img": "equinox.png"
+      },
+      {
+        "img": "fomo_chronicles_white-small.png"
+      },
+      {
+        "img": "fomocraft.svg"
+      },
+      {
+        "img": "gamestar.svg"
+      },
+      {
+        "img": "gamexchange.png"
+      },
+      {
+        "img": "gamestar.svg"
+      },
+      {
+        "img": "hextrust.svg"
+      },
+      {
+        "img": "hyve.png"
+      },
+      {
+        "img": "icetealabs.png"
+      },
+      {
+        "img": "idenfy.svg"
+      },
+      {
+        "img": "locg.png"
+      },
+      {
+        "img": "mantradao.svg"
+      },
+      {
+        "img": "netvrk.svg"
+      },
+      {
+        "img": "ojamu.png"
+      },
+      {
+        "img": "polydoge.jpeg"
+      },
+      {
+        "img": "rarestone.png"
+      },
+      {
+        "img": "rebaked.png"
+      },
+      {
+        "img": "revolve.png"
+      },
+      {
+        "img": "scottybeam.png"
+      },
+      {
+        "img": "supraoracles.png"
+      },
+      {
+        "img": "synapse_network.jpeg"
+      },
+      {
+        "img": "winnersnetwork.png"
+      },
+      {
+        "img": "zero.svg"
+      },
+      {
+        "img": "zokyo.png"
+      },
+      {
+        "img": "art-chops.png"
+      },
+      {
+        "img": "hinata-logo-design.svg"
+      }
+    ]
+  },
+  "strategicPartners": {
+    "path": "assets/img/partners/",
+    "template": "partners",
+    "cards": [
+      {
+        "img": "horizen_tm_hrz_rgb_rev.png",
+        "description": "Horizen is the zero-knowledge-enabled network of blockchains. Horizen offers best-in-class tools for developers to custom-build private or public blockchains with flexibility unmatched by others."
+      },
+      {
+        "img": "svc.svg",
+        "description": "As investing pioneers in the blockchain space, the team sponsors, supports and incubates exciting early stage blockchain projects through careful analysis and research."
+      },
+      {
+        "img": "ferrum.svg",
+        "description": "Leveraging the best qualities of existing networks in a high-speed transaction layer, Ferrum Network presents an alternative method for validating and expediting activity between users."
+      },
+      {
+        "img": "starter.svg",
+        "description": "Starter Capital help projects recreate the future by providing access to technical resources, marketing assistance, and starting capital."
+      },
+      {
+        "img": "fomocraft.svg",
+        "description": "Specializing in the blitz Launch of crypto startups. Their strengths lie in brand building, narrative marketing and the ability to attract the best specialists to take up tactical roles."
+      },
+      {
+        "img": "applicature.svg",
+        "description": "Premium marketing services to boost projects Conducting in-depth research markets, identifying business and user personas, elaborate strategies and development."
+      },
+      {
+        "img": "empire.svg",
+        "description": "Empire Global provides end-to-end blockchain development, blockchain consulting, and tokenomics services to multiple business domains in cryptocurrency."
+      }
+    ]
+  },
+  "councilMembers": {
+    "path": "assets/img/team-members/",
+    "template": "members",
+    "cards": [
+      {
+        "name": "JASON KOVAR",
+        "position": "CEO",
+        "description": "20 years experience in marketing has resulted in billions of dollars in sales. Jason continues his journey to provide the best solutions for the crypto ecosystem.",
+        "img": "jason-kovar.png"
+      },
+      {
+        "name":  "IHOR SAVCHUK",
+        "position":  "CTO",
+        "description":  "Senior partner at Applicature, a BLOCKCHAIN DEVELOPMENT AGENCY FOCUSED ON RESEARCH, deployment, and customisation of blockchain solutions.",
+        "img": "ihor-savchuk.png"
+      },
+      {
+        "name":  "MARK SNOWDON",
+        "position":  "CMO",
+        "description":  "Specialises in marketing techniques and viral strategies, with the end goal of increasing conversion rates and achieving rapid growth of a user base.",
+        "img": "mark-showdon.png"
+      },
+      {
+        "name":  "P4F1",
+        "position":  "COO",
+        "description":  "He holds vast expertise in business negotiations, cryptocurrency investments, and business consulting in the private sector.",
+        "img": "p4f1.jpg"
+      },
+      {
+        "name":  "Carlos Melgar",
+        "position":  "Chief NFT Strategist",
+        "description":  "Carlos has worked with numerous top-tier crypto projects, where he amassed important in-depth knowledge and hands-on experience in launching new projects. His latest success is with The Pluto Alliance, Bitboy's new community centered NFT department, where he set up their strategy and launch",
+        "img": "carlos-melgar.jpg"
+      },
+      {
+        "name":  "Max Dier",
+        "position":  "Chief Launch Officer",
+        "description":  "Maximilian Dier is skilled at discovering and scrutinizing long-term investment opportunities in the cryptocurrency industry. He has sourced tens of millions in fundraising, helping launch the biggest projects in the space.",
+        "img": "max-dier.jpg"
+      }
+    ]
+  },
+  "strategicAdvisors": {
+    "path": "assets/img/team-members/",
+    "template": "members",
+    "cards": [
+      {
+        "name": "JP MULLIN",
+        "position":"STRATEGIC ADVISOR",
+        "description": "Co-Founder of Mantra Dao, JP brings with him an impressive background in innovation, ﬁntech and a lengthy experience in many aspects of the blockchain industry.",
+        "img":"jp-mullin.png"
+      },
+      {
+        "name": "IAN FRIEND",
+        "position": "ADVISOR & FAS PARTNER",
+        "description": "Co-Founder and COO at Ferrum Network, Ian has extensive experience in building, managing and advising cryptocurrency projects.",
+        "img": "ian-friend.png"
+      },
+      {
+        "name": "BJORN HAUGE",
+        "position": "GAMING ADVISOR",
+        "description": "Entrepreneurial-senior executive with consistent success in starting, building, growing and improving theproﬁtability and value of companies.",
+        "img": "bjorn-hauge.png"
+      },
+      {
+        "name": "LIONEL IRUK",
+        "position": "LEGAL ADVISOR",
+        "description": "Lead counsel and legal advisor for numerous gaming, cryptocurrency and DeFi projects, his clients have collectively generated over 10 Billion USD to date.",
+        "img": "lionel-iruk.png"
+      },
+      {
+        "name": "JOE WONG",
+        "position": "MARKETING ADVISOR",
+        "description": "Principal at Fomocraft. 20+ years of integrated marketing experience at multiple award-winning global agencies. Launch CMO for MANTRA DAO and Polkastarter. Advisor for MANTRA DAO, Royale, Launchpool and Finxﬂo.",
+        "img": "joe-wong.png"
+      },
+      {
+        "name": "NICHOLAS KRAPELS",
+        "position": "STRATEGY ADVISOR",
+        "description": "Principal at Fomocraft. Ex-Wanchain, advisor to MANTRA DAO, Finxﬂo, Launchpool and Cryptocurrencies.Ai. Published academician, educator, startup strategy and token economy expert.",
+        "img": "nicholas-krapels.png"
+      },
+      {
+        "name": "RITAM GUPTA",
+        "position": "GAMING ADVISOR",
+        "description": "Founder of Deﬁ 11. 6 years in blockchain software development, technology consulting & enterprise architecture delivery. Played key leadership roles, from strategy to operations.",
+        "img": "ritam-gupta.png"
+      },
+      {
+        "name": "MOHSEN ALFARAJ",
+        "position": "DEFI ADVISOR",
+        "description": "An experienced VC in the cryptocurrency world with speciﬁc expertise in DeFi consultancy, Mohsen has worked closely with numerous successful crypto DeFi projects",
+        "img": "mohsen-alfaraj.png"
+      },
+      {
+        "name": "SUVI RINKINEN",
+        "position": "Strategic Advisor STARTER",
+        "description": "Former CEO at The Telos Foundation. A respected thought-leader with an extensive background in investor relations for ﬁntech and blockchain projects.",
+        "img": "suvi-rinkinen.png"
+      }
+    ]
+  },
+  "roadmap": {
+    "template": "roadmap",
+    "cards": [
+      {
+        "items": [
+          "Completed various case studies with real world companies and  service products to identify the exact problems and resultant needs within the ecosystem."
+        ]
+      },
+      {
+        "items": [
+          "Development of Phase 1 architecture and software solutions for the gaming platform.",
+          "V1 centralized MVP."
+        ]
+      },
+      {
+        "items": [
+          "Finalised the litepaper and protocol presentation site.",
+          "Angel round sale.",
+          "Strategic advisors and partners onboarding.",
+          "Decentralised onboarding module development.",
+          "V1 centralized MVP."
+        ]
+      },
+      {
+        "items": [
+          "Commercial agreements with the strategic partners.",
+          "Commercial agreement with the devs team.",
+          "Marketing materials for private investors.",
+          "Seed / private Sale.",
+          "Website launch."
+        ]
+      },
+      {
+        "items": [
+          "Community growth marketing campaign launch.",
+          "Public Sale and Gamer token Listing.",
+          "Launch of MVP.",
+          "Launch of our first Gaming project.",
+          "Add multi-chain capabilities to our launchpad."
+        ]
+      },
+      {
+        "items": [
+          "Launch of decentralized NFT marketplace.",
+          "Launch of our community centered in-house game. Launch of our Polkadot launchpad.  ",
+          "Continuous launch of in-house games. ",
+          "Launch of the governance platform and voting website.",
+          "Launch of mobile app."
+        ]
+      }
+
+    ]
+  },
+  "tokenomics": {
+    "template": "tokenomics",
+    "cards": [
+      {
+        "category": "Category",
+        "allocation": "Allocation",
+        "raise":"Raise",
+        "locked": "Locked",
+        "vesting":"Vesting <br>(months)",
+        "notes": "Notes",
+        "className": "table-title"
+      },
+      {
+        "category": "Category",
+        "allocation": "14%",
+        "raise":"14,000,000",
+        "locked": "12 months",
+        "vesting":"12",
+        "notes": "Locked for 12 months then linear daily vesting over 12 months",
+        "className": "table-item"
+      },
+      {
+        "category": "Team",
+        "allocation": "14%",
+        "raise":"14,000,000",
+        "locked": "12 months",
+        "vesting":"12",
+        "notes": "Locked for 12 months then linear daily vesting over 12 months",
+        "className": "table-item"
+      },
+      {
+        "category": "Operations",
+        "allocation": "5.50%",
+        "raise": "5,500,000",
+        "locked": "2 months",
+        "vesting": "10",
+        "notes":  "Locked for 2 months then linear daily vesting over 10 months",
+        "className": "table-item"
+      },
+      {
+        "category": "Marketing",
+        "allocation": "15%",
+        "raise": "15,000,000",
+        "locked": "2 months",
+        "vesting": "18",
+        "notes":  "Locked for 2 months then linear daily vesting over 18 months",
+        "className": "table-item"
+      },
+      {
+        "category": "Reserve",
+        "allocation": "15%",
+        "raise": "15,000,000",
+        "locked": "1 months",
+        "vesting": "24",
+        "notes":  "Locked for 1 months then linear daily vesting over 24 months",
+        "className": "table-item"
+      },
+      {
+        "category": "Advisors",
+        "allocation": "5%",
+        "raise": "5,000,000",
+        "locked": "2 months",
+        "vesting": "18",
+        "notes":  "Locked for 2 months then linear daily vesting over 18 months",
+        "className": "table-item"
+      },
+      {
+        "category": "Angel Round",
+        "allocation": "5%",
+        "raise": "5,000,000",
+        "locked": "",
+        "vesting": "15",
+        "notes":  "5% at TGE then linear daily vesting over 15 months",
+        "className": "table-item"
+      },
+      {
+        "category": "Seed Round",
+        "allocation": "11%",
+        "raise": "11,000,000",
+        "locked": "",
+        "vesting": "12",
+        "notes":  "5% at TGE then linear daily vesting over 12 months",
+        "className": "table-item"
+      },
+      {
+        "category": "Private Round",
+        "allocation": "15%",
+        "raise": "15,000,000",
+        "locked": "",
+        "vesting": "9",
+        "notes":  "10% at TGE then linear daily vesting over 9 months",
+        "className": "table-item"
+      },
+      {
+        "category": "Public Round",
+        "allocation": "5.5%",
+        "raise": "5,500,000",
+        "locked": "",
+        "vesting": "2",
+        "notes":  "20% at TGE and 80% linear daily vesting over 2 months",
+        "className": "table-item"
+      },
+      {
+        "category": "Staking Rewards",
+        "allocation": "5%",
+        "raise": "5,000,000",
+        "locked": "",
+        "vesting": "",
+        "notes":  "",
+        "className": "table-item"
+      },
+      {
+        "category": "Exchange Liquidity",
+        "allocation": "4%",
+        "raise": "4,000,000",
+        "locked": "",
+        "vesting": "",
+        "notes":  "50% used at TGE, 50% reserved for CEX listings",
+        "className": "table-item"
+      },
+      {
+        "category": "Tokens sold",
+        "allocation": "",
+        "raise": "36,500,500",
+        "locked": "",
+        "vesting": "",
+        "notes":  "",
+        "className": "table-item"
+      },
+      {
+        "category": "Advisors",
+        "allocation": "",
+        "raise": "5,000,000",
+        "locked": "TGE Circulation",
+        "vesting": "3,400,000",
+        "notes":  "",
+        "className": "table-item"
+      },
+      {
+        "category": "Staking/Liquidity",
+        "allocation": "",
+        "raise": "9,000,000",
+        "locked": "TGE Marketcap",
+        "vesting": "340.000",
+        "notes":  "",
+        "className": "table-item"
+      },
+      {
+        "category": "Treasury",
+        "allocation": "",
+        "raise": "35,500,000",
+        "locked": "Total Raise",
+        "vesting": "2,330,000",
+        "notes":  "",
+        "className": "table-item"
+      },
+      {
+        "category": "Team",
+        "allocation": "",
+        "raise": "14,000,000",
+        "locked": "",
+        "vesting": "",
+        "notes":  "",
+        "className": "table-item"
+      },
+      {
+        "category": "Total",
+        "allocation": "",
+        "raise": "100,000,000",
+        "locked": "",
+        "vesting": "",
+        "notes":  "",
+        "className": "table-item"
+      }
+    ]
+  }
+}

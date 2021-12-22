@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" type="image/png" href="../assets/favicon.png"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/style.css">
+    <link rel="stylesheet" href="../styles/landing.css">
+    <link rel="stylesheet" href="../styles/mobile.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <script src="../script.js"></script>
+    <script>
+        loadJson('../assets/json/data.json', ((data) => {
+            addTokenSection(data);
+        }));
+    </script>
+    <title>Gamestation</title>
+</head>
+<body>
+
+<header class="header">
+    <div class="logo"></div>
+    <div class="navigation">
+        <a href="../assets/docs/GameStation-SC-Audit.pdf" target="_blank">Audits</a>
+        <a href="../index.html" target="_self">About</a>
+        <a href="./how-it-works.html">How It Works</a>
+        <a class="selected"><span>Token</span></a>
+        <a href="https://medium.com/gamestationio" target="_blank">Blog</a>
+        <a href="../assets/docs/GameStation-PitchDeckV1.0C-compressed.pdf" target="_blank"><span>Whitepaper</span></a>
+        <a href="https://app.gamestation.io/user/faq" target="_blank"><span>FAQ</span></a>
+    </div>
+    <div class="social-and-app">
+
+        <a href="https://quickswap.exchange/#/swap?outputCurrency=0x3f6b3595ecf70735d3f48d69b09c4e4506db3f47" target="_blank" class="buy-gamer-link desktop">
+            <button class="launch-app-btn buy-gamer">
+                <span>Buy GAMER</span>
+            </button>
+        </a>
+        <a href="https://app.gamestation.io/" target="_blank" class="launch-app-btn-link">
+            <button class="launch-app-btn">
+                <span> Launch App</span>
+            </button>
+        </a>
+        <div class="menu" onclick="toggleMenu(this)"></div>
+    </div>
+
+    <div id="mobile-side-bar" class="show-on-mobile" style="display: none">
+        <div class="mobile-side-bar">
+            <a  href="../assets/docs/GameStation-SC-Audit.pdf" target="_blank">
+                <div class="mobile-side-bar__item">
+                    <div class="mobile-side-bar__audit"></div>
+                    <span>Audits</span>
+                </div>
+            </a>
+            <a href="../index.html" target="_self">
+                <div class="mobile-side-bar__item">
+                    <div class="mobile-side-bar__about"></div>
+                    <span>About</span>
+                </div>
+            </a>
+
+            <a href="how-it-works.html">
+                <div class="mobile-side-bar__item">
+                    <div class="mobile-side-bar__benefits"></div>
+                    <div>How It Works</div>
+                </div>
+            </a>
+
+            <a class="selected">
+                <div class="mobile-side-bar__item">
+                    <div class="mobile-side-bar__participants"></div>
+                    <div>Token</div>
+                </div>
+            </a>
+
+            <a href="../assets/docs/GameStation-PitchDeckV1.0C-compressed.pdf" target="_blank">
+                <div class="mobile-side-bar__item">
+                    <div class="mobile-side-bar__participants"></div>
+                    <div>Whitepaper</div>
+                </div>
+            </a>
+
+            <a href="https://medium.com/gamestationio" target="_blank">
+                <div class="mobile-side-bar__item">
+                    <div class="mobile-side-bar__utility"></div>
+                    <div>Blog</div>
+                </div>
+            </a>
+
+            <a href="https://app.gamestation.io/user/faq" target="_blank">
+                <div class="mobile-side-bar__item">
+                    <div class="mobile-side-bar__utility"></div>
+                    <div>FAQ</div>
+                </div>
+            </a>
+        </div>
+        <a href="https://quickswap.exchange/#/swap?outputCurrency=0x3f6b3595ecf70735d3f48d69b09c4e4506db3f47" target="_blank" class="buy-gamer-link">
+            <button class="launch-app-btn buy-gamer">
+                <span>Buy GAMER</span>
+            </button>
+        </a>
+    </div>
+</header>
+
+<div class="zoom-content">
+    <section class="token-overview-section">
+        <div class="section-w-box token-overview-section-box">
+            <h1>TOKENOMICS OVERVIEW</h1>
+
+            <div class="d-flex-space-between">
+                <div class="white-border-box white-border-box-bg-1">
+                    <div class="white-border-box-clip left-clip left-clip-m"></div>
+                    <div class="white-border-box-clip right-clip right-clip-m"></div>
+                    <img class="white-border-box-logo" src="../assets/icons/TOTAL-TOKEN-SUPPLY.svg" alt="SUPPLY">
+                    <p class="white-border-box-title">TOTAL TOKEN SUPPLY</p>
+                    <p class="white-border-box-value">100,000,000 GAMER</p>
+
+
+                </div>
+                <div class="white-border-box white-border-box-bg-2">
+                    <div class="white-border-box-clip left-clip left-clip-m"></div>
+                    <div class="white-border-box-clip right-clip right-clip-m"></div>
+                    <img class="white-border-box-logo" src="../assets/icons/HARD-CAP.svg" alt="HARD">
+                    <p class="white-border-box-title">HARD CAP</p>
+                    <p class="white-border-box-value">$2,330,000</p>
+                </div>
+
+            </div>
+            <div class="d-flex-space-between">
+                <div class="white-border-box white-border-box-bg-3">
+                    <div class="white-border-box-clip left-clip left-clip-m"></div>
+                    <div class="white-border-box-clip right-clip right-clip-m"></div>
+                    <img class="white-border-box-logo" src="../assets/icons/TGE-CIRCULATING-AMOUNT.svg"
+                         alt="CIRCULATING">
+                    <p class="white-border-box-title">TGE CIRCULATING AMOUNT</p>
+                    <p class="white-border-box-value">3,400,000 GAMER</p>
+                </div>
+                <div class="white-border-box white-border-box-bg-4">
+                    <div class="white-border-box-clip left-clip left-clip-m"></div>
+                    <div class="white-border-box-clip right-clip right-clip-m"></div>
+                    <img class="white-border-box-logo" src="../assets/icons/TGE-MARKET-CAP.svg" alt="MARKET">
+                    <p class="white-border-box-title">TGE MARKET CAP</p>
+                    <p class="white-border-box-value">$340,000</p>
+                </div>
+
+            </div>
+            <div class="d-flex-space-between">
+                <div class="white-border-box white-border-box-big">
+                    <div class="white-border-box-clip left-clip left-clip-m"></div>
+                    <div class="white-border-box-clip right-clip right-clip-m"></div>
+
+                    <p class="white-border-box-title">TOKEN PRICE</p>
+
+                    <div class="d-flex mt-10">
+                        <div class="white-border-box-status">
+                            <span>Public</span>
+                        </div>
+                        <p class="white-border-box-value">$0.10</p>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <section class="token-distribution-section">
+        <div class="section-w-box token-distribution-section-bg">
+            <h1>TOKEN<br/>DISTRIBUTION </h1>
+            <div class="d-flex-column token-distribution-section-total-supply">
+                <p>TOTAL SUPPLY</p>
+                <h2>100,000,000 GAMER</h2>
+            </div>
+
+
+            <div class="chert-item chert-item-left chert-item-exchange-liquidity">
+                <div class="chert-item-percent">4%</div>
+                <div class="chert-item-title">Exchange Liquidity</div>
+            </div>
+            <div class="chert-item chert-item-left chert-item-team">
+                <div class="chert-item-percent">14%</div>
+                <div class="chert-item-title">Team</div>
+            </div>
+            <div class="chert-item chert-item-left chert-item-operations">
+                <div class="chert-item-percent">5.5%</div>
+                <div class="chert-item-title">Operations</div>
+            </div>
+            <div class="chert-item chert-item-left chert-item-marketing">
+                <div class="chert-item-percent">15%</div>
+                <div class="chert-item-title">Marketing</div>
+            </div>
+            <div class="chert-item chert-item-left chert-item-reserves">
+                <div class="chert-item-percent">15%</div>
+                <div class="chert-item-title">Reserves</div>
+            </div>
+            <div class="chert-item chert-item-left chert-item-advisors">
+                <div class="chert-item-percent">5%</div>
+                <div class="chert-item-title">Advisors</div>
+            </div>
+            <div class="chert-item chert-item-right chert-item-staking-rewards">
+                <div class="chert-item-percent">5%</div>
+                <div class="chert-item-title">Staking Rewards</div>
+            </div>
+            <div class="chert-item chert-item-right chert-item-seed-round">
+                <div class="chert-item-percent">11%</div>
+                <div class="chert-item-title">Seed Round</div>
+            </div>
+            <div class="chert-item chert-item-right chert-item-private-round">
+                <div class="chert-item-percent">15%</div>
+                <div class="chert-item-title">Private Round</div>
+            </div>
+            <div class="chert-item chert-item-right chert-item-public-round">
+                <div class="chert-item-percent">5.5%</div>
+                <div class="chert-item-title">Public Round</div>
+            </div>
+            <div class="chert-item chert-item-right chert-item-angel-round">
+                <div class="chert-item-percent">5%</div>
+                <div class="chert-item-title">Angel Round</div>
+            </div>
+        </div>
+    </section>
+
+    <section class="token-overview-section tokenomics-section">
+        <div class="section-w-box token-overview-section-box">
+            <h1>GAMESTATION TOKENOMICS</h1>
+
+            <div class="table-box">
+                <div class="table" id="tokenomics"></div>
+            </div>
+        </div>
+    </section>
+    <section class="wrapper">
+        <form class="wrapper__form" method="post" accept-charset="UTF-8"
+              action="https://www.aweber.com/scripts/addlead.pl">
+            <div style="display: none;">
+                <input type="hidden" name="meta_web_form_id" value="1983711443"/>
+                <input type="hidden" name="meta_split_id" value=""/>
+                <input type="hidden" name="listname" value="awlist6111335"/>
+                <input type="hidden" name="meta_adtracking" value="My_Web_Form_3"/>
+                <input type="hidden" name="meta_message" value="1"/>
+                <input type="hidden" name="meta_required" value="email"/>
+                <input type="hidden" name="meta_redirect_onlist" value="https://www.gamestation.io/"/>
+
+                <input type="hidden" name="meta_tooltip" value=""/>
+            </div>
+            <div id="af-form-1983711443" class="wrapper__content">
+                <div class="wrapper__text">
+                    Want to stay up to date?
+                    <br/>
+                    Sign up for our newsletter
+                </div>
+
+                <div id="af-body-1983711443" class="wrapper__input input">
+
+                    <label class="text">
+                        <input class="input__email" id="awf_field-112511911" name="email" required placeholder="Enter email address" type="email" alt=""
+                               tabindex="500"
+                               onfocus=" if (this.value == '') { this.value = ''; }"
+                               onblur="if (this.value == '') { this.value ='';} "/>
+                    </label>
+                    <div class="wrapper__button">
+                        <input name="submit" class="submit" type="submit" value="Confirm" tabindex="501"/>
+                        <div class="af-clear"></div>
+                    </div>
+                </div>
+            </div>
+        </form>
+
+    </section>
+    <footer class="footer">
+        <div class="section-w-box footer-content">
+            <div class="join-our-community">
+                <h1>JOIN OUR<br/>COMMUNITY </h1>
+                <div class="x-kickstarter-icons">
+                    <span class="x-kickstarter"></span>
+                    <span class="x-kickstarter"></span>
+                </div>
+            </div>
+
+
+            <div class="d-flex-flex-start mobile-column-direction">
+                <p class="text1">follow our updates<br/>on these channels.</p>
+                <div class="d-flex">
+                    <a target="_blank" href="https://t.me/gamestationio_official"><span
+                            class="footer-social footer-tg"></span></a>
+                    <a target="_blank" href="https://t.me/GameStationIO_Ann"><span
+                            class="footer-social footer-tg-2"></span></a>
+                    <a target="_blank" href="https://twitter.com/gamestationio"><span
+                            class="footer-social footer-twitter"></span></a>
+                    <a target="_blank" href="https://medium.com/gamestationio"><span
+                            class="footer-social footer-medium"></span></a>
+                    <a target="_blank" href="https://discord.gg/gamestationio"><span class="footer-social footer-discord"></span></a>
+                </div>
+            </div>
+
+            <h1>APPLY<br/>FOR IDO</h1>
+
+            <div class="d-flex-flex-start mobile-column-direction">
+                <p class="text2">Is your project ready to get<br/>launched on GameStation? </p>
+                <button class="apply-for-ido-btn">
+                    <a href="https://forms.gle/F1BRmK7Jq5pbnCwVA" target="_blank"><span class="launch-app apply-for">Apply For IGO</span></a>
+                </button>
+            </div>
+
+
+            <div class="d-flex-space-between footer-bottom-box">
+                <img src="../assets/img/logo/footer-logo.svg" alt="logo">
+                <div class="d-flex">
+                    <a target="_blank" href="mailto:hello@gamestation.io">Contact Us</a>
+                    <a> © 2021 GameStation</a>
+                    <a>Terms of Use</a>
+                    <a>Privacy Policy</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+</div>
+
+</body>
+</html>

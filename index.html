@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" type="image/png" href="./assets/favicon.png"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link  rel="stylesheet" href="styles/style.css">
+    <link  rel="stylesheet" href="styles/landing.css">
+    <link  rel="stylesheet" href="styles/mobile.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <script src="script.js"></script>
+    <script>
+        loadJson('assets/json/data.json', ((data) => {
+            addIndexSections(data);
+        }));
+    </script>
+    <title>Gamestation</title>
+</head>
+<body>
+<header class="header">
+    <div class="logo"></div>
+    <div class="navigation">
+        <a href="assets/docs/GameStation-SC-Audit.pdf" target="_blank">Audits</a>
+        <a class="selected">About</a>
+        <a href="./pages/how-it-works.html" target="_self"><span>How It Works</span></a>
+        <a href="./pages/token.html" target="_self"><span>Token</span></a>
+        <a href="https://medium.com/gamestationio" target="_blank">Blog</a>
+        <a href="assets/docs/GameStation-PitchDeckV1.0C-compressed.pdf" target="_blank"><span>Whitepaper</span></a>
+        <a href="https://app.gamestation.io/user/faq" target="_blank"><span>FAQ</span></a>
+    </div>
+    <div class="social-and-app">
+        <a href="https://quickswap.exchange/#/swap?outputCurrency=0x3f6b3595ecf70735d3f48d69b09c4e4506db3f47" target="_blank" class="buy-gamer-link desktop">
+            <button class="launch-app-btn buy-gamer"><span>Buy GAMER</span></button>
+        </a>
+        <a href="https://app.gamestation.io/" target="_blank" class="launch-app-btn-link">
+            <button class="launch-app-btn"><span> Launch App</span></button>
+        </a>
+        <div class="menu" onclick="toggleMenu(this)"></div>
+    </div>
+
+    <div id="mobile-side-bar" class="show-on-mobile" style="display: none">
+        <div class="mobile-side-bar">
+            <a  href="assets/docs/GameStation-SC-Audit.pdf" target="_blank">
+                <div class="mobile-side-bar__item">
+                    <div class="mobile-side-bar__audit"></div>
+                    <span>Audits</span>
+                </div>
+            </a>
+            <a class="selected">
+                <div class="mobile-side-bar__item"><div class="mobile-side-bar__about"></div><span>About</span></div>
+            </a>
+            <a href="./pages/how-it-works.html">
+                <div class="mobile-side-bar__item"><div class="mobile-side-bar__benefits"></div><div>How It Works</div></div>
+            </a>
+            <a href="./pages/token.html">
+                <div class="mobile-side-bar__item"><div class="mobile-side-bar__participants"></div><div>Token</div></div>
+            </a>
+            <a href="assets/docs/GameStation-PitchDeckV1.0C-compressed.pdf" target="_blank">
+                <div class="mobile-side-bar__item"><div class="mobile-side-bar__participants"></div><div>Whitepaper</div></div>
+            </a>
+            <a href="https://medium.com/gamestationio" target="_blank">
+                <div class="mobile-side-bar__item"><div class="mobile-side-bar__utility"></div><div>Blog</div></div>
+            </a>
+
+            <a href="https://app.gamestation.io/user/faq" target="_blank">
+                <div class="mobile-side-bar__item"><div class="mobile-side-bar__utility"></div><div>FAQ</div></div>
+            </a>
+        </div>
+        <a href="https://quickswap.exchange/#/swap?outputCurrency=0x3f6b3595ecf70735d3f48d69b09c4e4506db3f47" target="_blank" class="buy-gamer-link">
+            <button class="launch-app-btn buy-gamer"><span>Buy GAMER</span></button>
+        </a>
+    </div>
+</header>
+
+<div class="zoom-content">
+    <div class="first" id="main-img">
+        <div class="content">
+            <div class="logo-big"></div>
+            <div class="logo-text"></div>
+            <div class="section-first-description desktop">We are a decentralized multi-chain gaming launchpad and marketplace.<br/>
+                Don’t just play your favorite games. Be part of them. Let’s get started.</div>
+            <div class="first-buttons">
+                <a href="https://app.gamestation.io/" target="_blank"><span class="launch-app">Launch App</span></a>
+                <a href="https://forms.gle/F1BRmK7Jq5pbnCwVA" target="_blank"><span class="launch-app apply-for">Apply For IGO</span></a>
+            </div>
+        </div>
+
+    </div>
+    <section class="kickstarter">
+        <div class="content">
+            <div class="kickstarter-gaming">
+                <div class="kickstarter-left">
+                    <div class="x-kickstarter-icons"><span class="x-kickstarter"></span><span class="x-kickstarter"></span></div>
+                    <div class="gamer-img"></div>
+                </div>
+
+                <div class="kickstarter-right">
+                    <div class="title">THE KICKSTARTER OF GAMING</div>
+                    <div class="unleashing">Unleashing raw gamer passion.</div>
+
+                    <div class="kickstarter-gaming-text">
+                        <span>The core idea of Gamestation is to empower independent game developers and gamers. We do this by enabling game developers to fund their ideas without giving away equity or IP.</span>
+                        <span>The Gamestation launchpad and marketplace encourage community growth and interaction between developers and gamers that have a stake in their gameworld.</span> 
+                    </div>
+                    <div class="dots">
+                        <div>
+                            <span class="dot"></span>
+                            <span class="dot"></span>
+                        </div>
+                        <div>
+                            <span class="dot"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="developers">
+                <div class="developers-header">
+                    <div class="title">EMPOWERING GAME DEVELOPERS</div>
+                    <div class="title-text">Gamestation is the world’s premier blockchain-based crowdfunding launchpad and marketplace that helps game developers fundraise with direct access to a captive audience of gamers. </div>
+                </div>
+
+                <div class="blue-border-box-big key-features-box">
+                    <div class="blue-border-box-clip top-clip"></div>
+                    <div class="blue-border-box-clip bottom-clip"></div>
+                    <div class="blue-border-box-clip left-clip"></div>
+                    <div class="blue-border-box-clip right-clip"></div>
+                    <div class="key-features-holder">
+                        <div class="key-features">
+                            <span class="key-features-title title">KEY FEATURES</span>
+                            <div class="key-features-item">
+                                <div class="about-page-item">Funding for game development</div>
+                                <div class="about-page-item">Seamless solutions for game developers</div>
+                                <div class="about-page-item">Additional revenue streams</div>
+                                <div class="about-page-item">Gamers own their gaming assets</div>
+                                <div class="about-page-item">A marketplace to loan, borrow, sell and trade assets</div>
+                                <div class="about-page-item">Events system for players and communities</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="x-kickstarter-icons x-kickstarter-bottom desktop">
+                <span class="x-kickstarter"></span>
+                <span class="x-kickstarter"></span>
+            </div>
+        </div>
+    </section>
+    <section class="pioneering">
+        <div class="content">
+            <div class="pioneering-play">
+                <div>
+                    <div class="pioneering-title">
+                        <div class="title desktop"> PIONEERING<span class="play-to-earn">PLAY TO EARN</span>DECENTRALIZED <br/>GAMING</div>
+                        <div class="title mobile"> PIONEERING<span class="play-to-earn">PLAY TO EARN</span><br/>DECENTRALIZED GAMING</div>
+                    </div>
+
+                    <div class="coins"></div>
+                    <div class="pioneering-play-list">
+                        <span>Multi-chain environment across Ethereum, Polygon, Solana, Polkadot and Binance Smart Chain.</span>
+                        <span>Gaming assets owned by gamers with a ﬁnancial value.</span>
+                        <span>Blockchain and tokenised events launchpad to ﬁnance game development. </span>
+                        <span>Gamiﬁed airdrops and token rewards including auto token staking and  burns. </span>
+                        <span>Increased game engagement through economical incentives. </span>
+                    </div>
+
+                </div>
+                <div>
+                    <img src="./assets/img/about/illustration.svg" alt="">
+                    <div class="dots">
+                        <div class="two-dots">
+                            <span class="dot blockchains-dot"></span>
+                            <span class="dot"></span>
+                        </div>
+                        <div class="one-dot">
+                            <span class="dot blockchains-dot-first"></span>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="network">
+        <div class="network-item">
+            <div class="title">POWERED BY MANTRA DAO</div>
+            <div class="blue-border-box-big network-box">
+                <div class="blue-border-box-clip top-clip"></div>
+                <div class="blue-border-box-clip bottom-clip"></div>
+                <div class="blue-border-box-clip left-clip"></div>
+                <div class="blue-border-box-clip right-clip"></div>
+                <div class="network-content">
+                    <div class="mantra-dao"></div>
+                    <div class="network-text">Mantra Dao is a community-governed DeFi platform focusing on staking, lending, and governance. As part of the Mantra Dao ecosystem, their launchpad Zendit is one of the top 3 launchpads in the DeFi market, leveraging the wisdom of the crowd to create a community-governed, transparent, and decentralized ecosystem.  </div>
+                    <div class="network-text">As part of the strategic partnership, GameStation will have access to Mantra Dao's proprietary launchpad technology, which will expedite our go-to-market roadmap!  </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <section class="network">
+
+
+        <div class="network-item network-partner">
+            <div class="title">NETWORK PARTNER</div>
+
+            <div class="network-items">
+                <div class="blue-border-box-big network-box">
+                    <div class="blue-border-box-clip top-clip"></div>
+                    <div class="blue-border-box-clip bottom-clip"></div>
+                    <div class="blue-border-box-clip left-clip"></div>
+                    <div class="blue-border-box-clip right-clip"></div>
+                    <div class="network-content">
+                        <div class="polygon"></div>
+                        <div class="network-text">Polygon is a framework for building interconnected blockchain networks. </div>
+                        <div class="network-text">Polygon eﬀectively transforms Ethereum into a full-ﬂedged multi-chain system (aka Internet of Blockchains).</div>
+                    </div>
+                </div>
+                <div class="blue-border-box-big network-box">
+                    <div class="blue-border-box-clip top-clip"></div>
+                    <div class="blue-border-box-clip bottom-clip"></div>
+                    <div class="blue-border-box-clip left-clip"></div>
+                    <div class="blue-border-box-clip right-clip"></div>
+                    <div class="network-content">
+                        <div class="horizen-labs"></div>
+                        <div class="network-text">Horizen is the zero-knowledge-enabled network of blockchains. Horizen offers best-in-class tools for developers to custom-build private or public blockchains with flexibility unmatched by others.</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="roadmap">
+        <div class="content">
+            <div class="title">ROADMAP</div>
+
+            <div class="roadmap-content">
+                <div class="years">
+                    <span class="years-item"><span class="years-number">2019-20</span></span>
+                    <span class="years-item"><span class="years-number">2020</span><span class="years-text">Q3/Q4</span></span><span class="years-item years-item-three"><span class="years-long-item">
+                    <span class="years-number">2021</span>
+                    <span class="years-text">Q1</span>
+                </span>
+                <span class="years-long-item">
+                    <span class="years-number">2021</span>
+                    <span class="years-text">Q2</span>
+                </span>
+                <span class="years-long-item">
+                    <span class="years-number">2021</span>
+                    <span class="years-text">Q3/Q4</span>
+                </span>
+
+            </span>
+            <span class="years-item">
+                <span class="years-number">2022</span>
+                <span class="years-text">Q1/Q2</span>
+            </span>
+                </div>
+                <div class="line"></div>
+                <div class="roadmap-description" id="roadmap">
+
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <section class="team">
+        <div class="content">
+            <div class="title">MEET THE TEAM</div>
+            <div class="subtitle">COUNCIL MEMBERS</div>
+            <div class="teams ceo ceo-first-child" id="councilMembers"></div>
+            <div class="subtitle">STRATEGIC ADVISORS</div>
+            <div class="teams" id="strategicAdvisors"></div>
+        </div>
+    </section>
+
+
+    <section class="partners strategic-partners">
+        <div class="content">
+            <div class="title">STRATEGIC PARTNERS</div>
+            <div class="companies strategic-partners-companies" id="strategicPartners">
+            </div>
+        </div>
+    </section>
+    <section class="partners">
+        <div class="content">
+            <div class="title">PARTNERS</div>
+            <div class="companies" id="partners"></div>
+        </div>
+    </section>
+
+    <section class="wrapper">
+        <form class="wrapper__form" method="post" accept-charset="UTF-8"
+              action="https://www.aweber.com/scripts/addlead.pl">
+            <div style="display: none;">
+                <input type="hidden" name="meta_web_form_id" value="1983711443"/>
+                <input type="hidden" name="meta_split_id" value=""/>
+                <input type="hidden" name="listname" value="awlist6111335"/>
+                <input type="hidden" name="meta_adtracking" value="My_Web_Form_3"/>
+                <input type="hidden" name="meta_message" value="1"/>
+                <input type="hidden" name="meta_required" value="email"/>
+                <input type="hidden" name="meta_redirect_onlist" value="https://www.gamestation.io/"/>
+
+                <input type="hidden" name="meta_tooltip" value=""/>
+            </div>
+            <div id="af-form-1983711443" class="wrapper__content">
+                <div class="wrapper__text">
+                    Want to stay up to date?
+                    <br/>
+                    Sign up for our newsletter
+                </div>
+
+                <div id="af-body-1983711443" class="wrapper__input input">
+
+                    <label class="text">
+                        <input class="input__email" id="awf_field-112511911" name="email" required placeholder="Enter email address" type="email" alt=""
+                               tabindex="500"
+                               onfocus=" if (this.value == '') { this.value = ''; }"
+                               onblur="if (this.value == '') { this.value ='';} "/>
+                    </label>
+                    <div class="wrapper__button">
+                        <input name="submit" class="submit" type="submit" value="Confirm" tabindex="501"/>
+                        <div class="af-clear"></div>
+                    </div>
+                </div>
+            </div>
+        </form>
+
+    </section>
+    <footer class="footer">
+
+        <div class="section-w-box footer-content">
+
+            <div class="join-our-community">
+                <h1>JOIN OUR<br/>COMMUNITY </h1>
+                <div class="x-kickstarter-icons">
+                    <span class="x-kickstarter"></span>
+                    <span class="x-kickstarter"></span>
+                </div>
+            </div>
+
+
+
+            <div class="d-flex-flex-start mobile-column-direction">
+                <p class="text1">follow our updates<br/>on these channels.</p>
+                <div class="d-flex">
+                    <a target="_blank" href="https://t.me/gamestationio_official"><span class="footer-social footer-tg"></span></a>
+                    <a target="_blank" href="https://t.me/GameStationIO_Ann"><span class="footer-social footer-tg-2"></span></a>
+                    <a target="_blank" href="https://twitter.com/gamestationio"><span class="footer-social footer-twitter"></span></a>
+                    <a target="_blank" href="https://medium.com/gamestationio"><span class="footer-social footer-medium"></span></a>
+                    <a target="_blank" href="https://discord.gg/gamestationio"><span class="footer-social footer-discord"></span></a>
+                </div>
+            </div>
+
+            <h1>APPLY<br/>FOR IDO</h1>
+
+            <div class="d-flex-flex-start mobile-column-direction">
+                <p class="text2">Is your project ready to get<br/>launched on Gamestation? </p>
+                <button class="apply-for-ido-btn">
+                    <a href="https://forms.gle/F1BRmK7Jq5pbnCwVA" target="_blank"><span class="launch-app apply-for">Apply For IGO</span></a>
+                </button>
+            </div>
+
+
+            <div class="d-flex-space-between footer-bottom-box">
+                <img src="assets/img/logo/footer-logo.svg" alt="logo">
+
+                <div class="d-flex">
+                    <a target="_blank" href="mailto:hello@gamestation.io">Contact Us</a>
+                    <a> © 2021 GameStation</a>
+                    <a>Terms of Use</a>
+                    <a>Privacy Policy</a>
+                </div>
+            </div>
+
+        </div>
+    </footer>
+</div>
+</body>
+</html>
